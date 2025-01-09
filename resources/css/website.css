@@ -1,0 +1,409 @@
+.landing-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    z-index: 10;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.user-icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.hero {
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+}
+
+.banner h1 {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 10px 20px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: auto;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.shop-now {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.products {
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 1.5rem;
+    color: black;
+    padding-bottom: 1rem;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: nowrap;
+}
+
+.product {
+    border: 1px solid #2a2d30;
+    padding: 20px;
+    border-radius: 7%;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(to bottom, #000, 75%, #2a2d30);
+    color: #fff;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+
+.product:hover {
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.4);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product h3 {
+    margin-top: 2px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.product .price {
+    font-size: 1.1rem;
+    color: white;
+}
+
+.product .price .original-price {
+    text-decoration: line-through;
+    margin-right: 10px;
+    color: #bbb;
+}
+
+.product .price .discounted-price {
+    font-weight: bold;
+}
+
+.newsletter {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.newsletter h2 {
+    font-size: 1.5rem;
+    color: black;
+    padding-bottom: 1rem;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.newsletter input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.newsletter button {
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 150px;
+    height: 47px;
+}
+
+.newsletter button:hover {
+    background-color: #333;
+}
+
+.reviews {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.reviews h2 {
+    font-size: 2rem;
+}
+
+.reviews-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: nowrap;
+}
+
+.review {
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 0;
+    width: 200px;
+    text-align: center;
+}
+
+.review .user-icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.review-content h3 {
+    font-weight: bold;
+}
+
+.review-content .stars {
+    color: gold;
+    font-size: 1.5rem;
+    text-shadow: 0 0 1px #000;
+}
+
+.review-content p {
+    text-align: left;
+}
+
+.review-content .user-name {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact .social-icons {
+    margin-top: 20px;
+}
+
+.contact .social-icons a {
+    margin: 0 10px;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+.contact .social-icons a:hover {
+    color: #ddd;
+}
+
+.footer {
+    padding: 20px;
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+}
+
+.background {
+    background-image: url('../js/Pages/demos/website/imgs/joias.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+.bg-default {
+    background-color: #e0e0e0;
+    padding: 20px;
+}
+
+.newsletter h2 {
+    color: white;
+}
+.contact h2 {
+    color: white;
+}
+.reviews h2 {
+    color: white;
+}
+.landing-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.hero {
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: auto;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.shop-now {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.bg-default {
+    background-color: #e0e0e0;
+    padding: 20px;
+}
+
+.products {
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 1.5rem;
+    color: black;
+    padding-bottom: 1rem;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: nowrap;
+}
+
+.product {
+    border: 1px solid #2a2d30;
+    padding: 20px;
+    border-radius: 7%;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(to bottom, #000, 75%, #2a2d30);
+    color: #fff;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+
+.product:hover {
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.4);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product h3 {
+    margin-top: 2px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.product .price {
+    font-size: 1.1rem;
+    color: white;
+}
+
+.product .price .original-price {
+    text-decoration: line-through;
+    margin-right: 10px;
+    color: #bbb;
+}
+
+.product .price .discounted-price {
+    font-weight: bold;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    z-index: 10;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.user-icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
